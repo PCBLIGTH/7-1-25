@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-
+/*** style de touts la barre de menu***/
 header {
     background-color: #D9D9D9;
     color: #000000;
@@ -13,14 +13,47 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 1308.33px ;
-    height: 141px;
-    
-    
-        
+    height:50px;}
+    .imageaccueil{
+        width: 1308.33px
+    }
+    /*** style logo***/
+    .Logo{
+    width:50px;}
+
+    /*** style du logo du menu***/
+.menu{
+    display: flex ;
+    gap:30px; 
+    color: #000000;
 }
+/*** style des menu***/
 nav{
     font-size:20px;
     margin: 0 7px;
 
 }
-div class="texte de mentaire"{}
+p{
+text-align: center}
+    /*** styles aporos**/
+
+.apropos{
+    background-color: #174076 ;   
+ text-align: center;
+}
+.comentaireapropos{
+    position: absolute;
+    width:736px;
+    height: 496px;
+    margin: auto;
+    right: -2%; 
+    line-height: 60px;
+
+}
+.imageapropos{
+    float: left;
+}
+h2{
+    clear:both;
+}
+}
