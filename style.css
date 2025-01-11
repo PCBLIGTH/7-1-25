@@ -6,6 +6,7 @@ body {
 }
 /*** style de touts la barre de menu***/
 header {
+    position: fixed;
     background-color: #D9D9D9;
     color: #000000;
     padding: 50px 100px;
@@ -15,7 +16,7 @@ header {
     width: 1308.33px ;
     height:50px;}
     .imageaccueil{
-        width: 1308.33px
+        width: 1308.33px;
     }
     /*** style logo***/
     .Logo{
@@ -26,6 +27,7 @@ header {
     display: flex ;
     gap:30px; 
     color: #000000;
+    margin-right: 20%;
 }
 /*** style des menu***/
 nav{
@@ -40,20 +42,167 @@ text-align: center}
 .apropos{
     background-color: #174076 ;   
  text-align: center;
+ width: 450px;
+right: 50%;
+border-radius: 10px;
+margin-left: 40%;
 }
 .comentaireapropos{
     position: absolute;
     width:736px;
     height: 496px;
-    margin: auto;
-    right: -2%; 
-    line-height: 60px;
-
+    right: 10%; 
+    line-height: 50px;
 }
 .imageapropos{
+    
     float: left;
+    margin-left: 40px;
+    border-radius: 20%;
+    margin-bottom: 20px;
 }
 h2{
     clear:both;
 }
+/*** style nos services***/
+.textenosservices{
+    background-color: #174076 ;   
+ text-align: center;
+ width: 450px;
+right: 50%;
+border-radius: 10px;
+margin-left: 40%;
+margin-top: 100px;
 }
+/*** cemteur au niveau de nos services***/
+.serviceintro{
+    text-align: center;
+}
+
+.contenue{/*** tous le partie apre le comentaire***/
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    max-width: 1200px;
+     margin: 40px auto;
+      padding: 20px; } 
+      
+      .corp{ background-color: #D9D9D9;     
+         border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+          padding: 20px; 
+          text-align: center; 
+          transition: transform 0.3s ease;
+        }
+.corp:hover{
+    transform: translate(-5px);
+}
+.corp img{/*** il est sur tous lesimages***/
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.corp h3{/*** les sous titre**/
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.corp p{
+    font-size: 14px;
+    color:#666;
+    line-height: 1,5;
+}
+.tnosevenement{/*** TEXTE DE NOS SERVICES**/
+    background-color: #174076 ;   
+ text-align: center;
+ width: 450px;
+right: 50%;
+border-radius: 10px;
+margin-left: 40%;
+margin-top: 100px;
+}
+.timage{/*** image de nos services***/
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    max-width: 700px;
+     margin-left: 10%;
+      padding: 20px; 
+    } 
+    /*** sectioncontact***/
+    .Contact div h2{/*** le sous titre***/
+        background-color: #174076 ;   
+ text-align: center;
+ width: 450px;
+right: 50%;
+border-radius: 10px;
+margin-left: 40%;
+margin-top: 50px;
+    }  
+    /*** Localisasion style***/
+    .localisation{/*** icone localosation style***/
+        margin-left: 50%;
+        float: left;
+        margin-top: -8px;
+    }
+    .tlocal {
+        margin-right: 28%;
+        margin-top: 40px; 
+        line-height: 30px;
+    }
+    .iconeemail{
+        clear: both;
+    }
+    .email{
+        margin-left: 50%;
+        float: left;
+        margin-top: -18px;
+    }
+    .temail {
+        margin-right: 30%;
+        margin-top: 50px; 
+        line-height: 40px;}
+    .iconecontact{
+        clear: both;
+    }
+    .imgcontact{
+        margin-left: 50%;
+        float: left;
+        margin-top: -20px;
+    }
+    .Tel {/***style des numeros***/
+        margin-right: 28%;
+        margin-top: 50px; 
+        line-height: 30px;}
+
+        /*** styel footer***/
+        footer{
+            background-color: #9fc2f1;
+            width: 1380px;
+            height: 450px;
+            margin-top: 120px;
+            margin: center ;
+        }
+        .reseau{/*** style de reseau***/
+            margin-left: 80%;
+            border-radius: 50%;
+            margin-right: 80%;
+            margin-top: -200px;
+            
+        }
+        .signarure{
+             margin-left: -60px;
+            margin-top: 100px;
+        }
+        .CiteInfo{
+            margin-left: 50%;
+        margin-top: -170px;
+        }
+        .Partenaire{
+            margin-left: 20%;
+            margin-top: -170px;
+            
+        }
+        @media screen {(max-width:1400px;)
+            
+        }
