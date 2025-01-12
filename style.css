@@ -53,6 +53,7 @@ margin-left: 40%;
     height: 496px;
     right: 10%; 
     line-height: 50px;
+    transition: 0,5s;
 }
 .imageapropos{
     
@@ -60,6 +61,7 @@ margin-left: 40%;
     margin-left: 40px;
     border-radius: 20%;
     margin-bottom: 20px;
+    margin-left: 10%;
 }
 h2{
     clear:both;
@@ -203,6 +205,89 @@ margin-top: 50px;
             margin-top: -170px;
             
         }
-        @media screen {(max-width:1400px;)
+        @media  (max-width:830px) 
+{
+    .Logo{/***resposivité1 du logo menu**/
+        width: 30px;
+    margin-top:-40px;
+    margin-left: -40px;
+}
+    .menu{/***resposivité1 du  menu**/
+    display:flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding: 0;
+    margin-right: 70%;
+    line-height: 2px;
+    margin-top: 8px;
+}
+.header{/***resposivité1 duheader **/
+    padding: 10px;
+    height:100px ;
+    width: 100%;
+}
+.imageaccueil{/***resposivité1 de l'image acceil**/
+    width: 200px;
+}
+.timage{
+    display: grid;
+    flex-direction: column;
+    order: 1;  
+}
+.apropos{
+    width: 100px;
+    height: 160px;
+    text-align: center;
+    margin: -5px;
+    margin-bottom: 40px;
+}
+.imageapropos{
+margin-top: 380px;
+width: 300px;
+}
+.comentaireapropos{
+    clear: both;
+    text-align: left;
+}.contenue{
+    display: flex; 
+    flex-direction: column; 
+    text-align: center;
+ } 
+ .contenue h2 {
+    width: 200px;
+ }
+ .textenosservices{
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 0px;}
+
+ .tnosevenement{
+    width: 160px;
+    height: 80px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 0px;
+
+}
+.timage{ display: flex; 
+    flex-direction: column;
+}
+.Contact div h2{
+    width: 160px;
+    height: 100px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 60px;
+}
+.footer{
+    display: flex; 
+    flex-direction: column;
+    width: 200px;
+}
+
+}
+
             
-        }
+        
