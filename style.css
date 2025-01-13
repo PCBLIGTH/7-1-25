@@ -13,10 +13,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1308.33px ;
+    width: 100% ;
     height:50px;}
     .imageaccueil{
-        width: 1308.33px;
+        width: 100%;
     }
     /*** style logo***/
     .Logo{
@@ -114,6 +114,12 @@ margin-top: 100px;
     color:#666;
     line-height: 1,5;
 }
+.video1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+/*** style nos service***/
 .tnosevenement{/*** TEXTE DE NOS SERVICES**/
     background-color: #174076 ;   
  text-align: center;
@@ -123,7 +129,7 @@ border-radius: 10px;
 margin-left: 40%;
 margin-top: 100px;
 }
-.timage{/*** image de nos services***/
+.timage{/*** image de nos evenement***/
     display: grid; 
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px; 
@@ -131,6 +137,8 @@ margin-top: 100px;
      margin-left: 10%;
       padding: 20px; 
     } 
+    
+    
     /*** sectioncontact***/
     .Contact div h2{/*** le sous titre***/
         background-color: #174076 ;   
@@ -147,7 +155,7 @@ margin-top: 50px;
         float: left;
         margin-top: -8px;
     }
-    .tlocal {
+    .tlocal {/*** texte de localisation***/
         margin-right: 28%;
         margin-top: 40px; 
         line-height: 30px;
@@ -180,7 +188,7 @@ margin-top: 50px;
         /*** styel footer***/
         footer{
             background-color: #9fc2f1;
-            width: 1380px;
+            width: 100%;
             height: 450px;
             margin-top: 120px;
             margin: center ;
@@ -207,33 +215,32 @@ margin-top: 50px;
         }
         @media  (max-width:830px) 
 {
-    .Logo{/***resposivité1 du logo menu**/
-        width: 30px;
-    margin-top:-40px;
-    margin-left: -40px;
-}
+    
+
     .menu{/***resposivité1 du  menu**/
     display:flex;
     flex-direction: column;
     margin-left: 0;
     padding: 0;
-    margin-right: 70%;
+width: 80%;
     line-height: 2px;
     margin-top: 8px;
 }
-.header{/***resposivité1 duheader **/
-    padding: 10px;
-    height:100px ;
-    width: 100%;
+.header{/***resposivité1 duheader */
+    height:60%;
+    width:100%;
 }
 .imageaccueil{/***resposivité1 de l'image acceil**/
-    width: 200px;
+    width: 90%;
 }
-.timage{
-    display: grid;
-    flex-direction: column;
-    order: 1;  
+.Logo{
+    width: 40px;
+    height: 40px;
+    margin-top:-10%;
+    margin-left: -10%;
+    min-width: 220px;
 }
+
 .apropos{
     width: 100px;
     height: 160px;
@@ -243,11 +250,12 @@ margin-top: 50px;
 }
 .imageapropos{
 margin-top: 380px;
-width: 300px;
+width: 90%;
 }
 .comentaireapropos{
-    clear: both;
-    text-align: left;
+    width: 90%;
+    line-height: 20px;
+    
 }.contenue{
     display: flex; 
     flex-direction: column; 
@@ -255,6 +263,9 @@ width: 300px;
  } 
  .contenue h2 {
     width: 200px;
+ }
+ .video1{
+    width:70%; 
  }
  .textenosservices{
     width: 100px;
@@ -264,15 +275,12 @@ width: 300px;
     margin-bottom: 0px;}
 
  .tnosevenement{
-    width: 160px;
-    height: 80px;
-    text-align: center;
-    margin: 0px;
-    margin-bottom: 0px;
+    width: 100%;
 
 }
 .timage{ display: flex; 
     flex-direction: column;
+    width: 90%;
 }
 .Contact div h2{
     width: 160px;
@@ -281,13 +289,31 @@ width: 300px;
     margin: 0px;
     margin-bottom: 60px;
 }
+/*** RESPOSIVE FOOTER***/
 .footer{
-    display: flex; 
-    flex-direction: column;
-    width: 200px;
+height: 400px;
+width: 90%;
+min-width: 510px;
+}
+.Partenaire{
+    margin-left: 20px;
+}
+.CiteInfo{
+    margin-left: 200px;
 }
 
-}
 
+}
+/***
+@media  (max-width:1400px){
+    .imageaccueil{/***resposivité1 de l'image acceil
+        width: 100%;
+    }
+        .header{
+            width: 90%;
+        }
+    
+    }
+***/
             
         
